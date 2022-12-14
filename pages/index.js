@@ -38,7 +38,7 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>AI Tweeter</title>
       </Head>
       <div className="container">
         <div className="header">
