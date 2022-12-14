@@ -41,7 +41,7 @@ const callGenerateEndpoint = async () => {
         <title>AI Tweeter</title>
         <meta
           property="og:image"
-          content="../assets/twitter-pineapple.jpg"
+          content="https://ai-tweeter.up.railway.app/twitter-pineapple.jpg"
         />
          <meta name='description' content='Write Viral Tweet Threads Using AI'/>
       </Head>
