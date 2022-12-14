@@ -39,6 +39,11 @@ const callGenerateEndpoint = async () => {
     <div className="root">
       <Head>
         <title>AI Tweeter</title>
+        <meta
+          property="og:image"
+          content="../assets/twitter-pineapple.jpg"
+        />
+         <meta name='description' content='Write Viral Tweet Threads Using AI'/>
       </Head>
       <div className="container">
         <div className="header">

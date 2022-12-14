@@ -6,7 +6,7 @@ function App({ Component, pageProps }) {
     <>
       <Head>
         <title>AI Tweeter</title>
-        <meta name='description' content='Write Viral Tweet Threads Using AI'/>
+       
       </Head>
      <Component {...pageProps} />
     </>
