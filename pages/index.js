@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { useState } from 'react';
-import buildspaceLogo from '../assets/buildspace-logo.png';
 import twitterLogo from '../assets/twitter-logo.png';
 
 const Home = () => {
@@ -83,17 +82,17 @@ const callGenerateEndpoint = async () => {
       <div class="grow-containers">
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href="https://twitter.com/whatshashwhat"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <Image src={twitterLogo} alt="twitter logo" />
+            <p>@WhatShashwhat on Twitter</p>
           </div>
         </a>
       </div>
-      <div className="badge-container-2 grow">
+      {/* <div className="badge-container-2 grow">
         <a
           href="https://twitter.com/whatshashwhat"
           target="_blank"
@@ -104,7 +103,7 @@ const callGenerateEndpoint = async () => {
             <p>@WhatShashwhat</p>
           </div>
         </a>
-      </div>
+      </div> */}
       </div>
     <div class="extension">
       <p>Like this tool?</p>
