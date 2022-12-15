@@ -108,7 +108,7 @@ const callGenerateEndpoint = async () => {
     <div class="extension">
       <p>Like this tool?</p>
       <div class="extension-link-container">
-      <a className="extension-link" href="#">Download the Extension</a>
+      <a className="extension-link" href="https://github.com/shashwat-j/AI-Twitter-Chrome-Extension" target="_blank">Download the Extension</a>
       <p>and use directly in Twitter</p>
       </div>
     </div>  
