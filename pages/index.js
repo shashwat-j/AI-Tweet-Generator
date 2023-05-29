@@ -24,9 +24,9 @@ const callGenerateEndpoint = async () => {
 
   const data = await response.json();
   const { output } = data;
-  console.log("OpenAI replied...", output.text)
+  console.log("OpenAI replied...", output)
 
-  setApiOutput(`${output.text}`);
+  setApiOutput(`${output}`);
   setIsGenerating(false);
 }
 
@@ -79,7 +79,7 @@ const callGenerateEndpoint = async () => {
 )}
         </div>
       </div>
-      <div class="grow-containers">
+      <div className="grow-containers">
       <div className="badge-container grow">
         <a
           href="https://twitter.com/whatshashwhat"
@@ -105,9 +105,9 @@ const callGenerateEndpoint = async () => {
         </a>
       </div> */}
       </div>
-    <div class="extension">
+    <div className="extension">
       <p>Like this tool?</p>
-      <div class="extension-link-container">
+      <div className="extension-link-container">
       <a className="extension-link" href="https://github.com/shashwat-j/AI-Twitter-Chrome-Extension" target="_blank">Download the Extension</a>
       <p>and use directly in Twitter</p>
       </div>
