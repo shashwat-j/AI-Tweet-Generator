@@ -50,7 +50,7 @@ const callGenerateEndpoint = async () => {
             <h1>Viral Tweet Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Just give a topic and get a twitter thread bound to go viral!</h2>
+            <h2>Just give a topic and get a Twitter thread bound to go viral!</h2>
           </div>
         </div>
         <div className="prompt-container">
